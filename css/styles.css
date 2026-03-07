@@ -12,3 +12,11 @@ ol {
   padding: 0;
   margin: 0;
 }
+.contacts a {
+  color: #434455;
+  text-decoration: none;
+}
+.contacts a:hover,
+.contacts a:focus {
+  color: #2e2f42;
+}

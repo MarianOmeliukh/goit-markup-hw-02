@@ -37,7 +37,8 @@ ol {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
   color: #ffffff;
   max-width: 496px;
   margin: 0 auto;
@@ -56,35 +57,24 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+}
+
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
-.header-container {
-  display: flex;
-  align-items: center;
-}
-.header-nav {
-  display: flex;
-  align-items: center;
-}
-.nav-list {
-  display: flex;
-  gap: 40px;
-}
-.contacts {
-  display: flex;
-  gap: 40px;
-  margin-left: auto;
-}
-.nav.link {
+
+.nav-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.contacts-link:hover,
-.contacts-link:focus {
+.contacts a:hover,
+.contacts a:focus {
   color: #404bbf;
 }
 .logo {
@@ -92,6 +82,7 @@ ol {
   font-weight: 700;
   font-size: 18px;
   letter-spacing: 0.03em;
+  line-height: 1.17;
   text-transform: uppercase;
   margin-right: 76px;
   color: #4d5ae5;
@@ -111,13 +102,7 @@ ol {
 .features {
   padding: 120px 0;
 }
-.features-list {
-  display: flex;
-  gap: 24px;
-}
-.features-item {
-  width: calc((100% - 72px) / 4);
-}
+
 .features-title {
   font-weight: 500;
   font-size: 20px;
@@ -127,9 +112,11 @@ ol {
   margin-bottom: 8px;
 }
 .features-text {
-  font-weight: 16px;
+  font-size: 16px;
+  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 .team {
   background-color: #f4f4fd;
@@ -147,8 +134,8 @@ ol {
 .team-item {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
-  width: calc((100% - 72px) / 4);
 }
+
 .team-card {
   padding: 32px 0;
   text-align: center;
@@ -178,14 +165,7 @@ ol {
   color: #2e2f42;
   margin-bottom: 72px;
 }
-.portfolio-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 48px 24px;
-}
-.portfolio-item {
-  width: calc((100% - 48px) / 3);
-}
+
 .portfolio-card {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
